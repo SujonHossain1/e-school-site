@@ -206,12 +206,14 @@ header .navbar .navbar-brand img {
     flex-direction: column;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
     padding: 47px 5px;
+    transition: 0.6s all linear;
 }
 
 #book-section .book-box:hover {
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+    transform: scale(1.05);
 }
 
 #book-section .book-box img {
